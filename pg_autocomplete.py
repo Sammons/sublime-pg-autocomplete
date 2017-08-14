@@ -9,7 +9,7 @@ import json
 # 2) Overwrite the generated plugin with the contents of this file
 # 3) Save, should save to the User folder under packages (where plugins reside for st3)
 # 4) Configure your postgres connection via your settings, 
-#    using the settings seen below starting on line 18
+#    using the settings seen below
 # 5) it slows things way down because it re-fires this query over and over
 #    so you have to explicitly enable it with the pg_autocomplete_disabled setting
 #    (set it to False to enable the plugin)
